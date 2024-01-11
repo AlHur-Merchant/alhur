@@ -9,7 +9,7 @@ import redpull from "../images/redpull.JPG";
 
 export function getData() {
   return [
-    { title: "عصير سموثي كوري",description: "20x250 مل", price: 17.99, Image: Img1,id:1 },
+    { title: "عصير سموثي كوري",description: "20x250 مل", price: 25000, Image: Img1,id:1 },
     { title: "ريد بل زيرو سكر",description: "24x250 مل", price: 15, Image: Img2,id:2 },
     { title: "ريد بل معدني روسي",description: "24x250 مل", price: 3.5, Image: Img4 ,id:3},
     { title: "بيبسي ماكس زيرو",description: "24x330 مل", price: 13.99, Image: Img5,id:4 },
