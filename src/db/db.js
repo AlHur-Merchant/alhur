@@ -16,6 +16,6 @@ export function getData() {
     { title: "عصير فارتونا فواكه دايت",description: "15 * 250 مل", price: 2.5, Image: Img6,id:5 },
     { title: " شاي لبتون الاخضر",description: "24 * 330 مل", price: 0.99, Image: Img8,id:6 },
     { title: "ريد بل انكليزي",description: "12 * 473 مل", price: 2.99, Image: Img9,id:7 },
-    { title: "ريد بل زجاج انكليزي",description: "24 x 250 مل", price: 2.99, Image: redpull,id:7 },
+    { title: "ريد بل زجاج انكليزي",description: "24 * 250 مل", price: 2.99, Image: redpull,id:7 },
   ];
 }
