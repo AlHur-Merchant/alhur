@@ -5,7 +5,7 @@ import '../styles/Header.css';
 function Header() {
   return (
     <header className="header">
-           <h2 className="heading">شركة الحر العراقية</h2>
+           <h2 className="heading">شركة الحرة العراقية</h2>
 
     </header>
   );
