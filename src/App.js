@@ -20,10 +20,11 @@ function App() {
   useEffect(() => {
     tele.ready();
   });
-    const handlePhoneNumberChange = (e) => {
+
+   const handlePhoneNumberChange = (e) => {
     const input = e.target.value;
-    // Allow only numbers in the phone number field
-    if (/^\d*$/.test(input) || input === '') {
+    // Allow only numbers (Western and Eastern Arabic numerals) in the phone number field
+    if (/^[\d٠١٢٣٤٥٦٧٨٩]*$/.test(input) || input === '') {
       setPhoneNumber(input);
     }
   };
