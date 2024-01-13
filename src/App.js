@@ -60,6 +60,8 @@ function App() {
       alert('يرجى ملء جميع الحقول المطلوبة');
       return;
     }
+      //adding totlal itms count
+    const totalItems = cartItems.reduce((a, c) => a + c.quantity, 0);
     const totalPrice = cartItems.reduce((a, c) => a + c.price * c.quantity, 0);
     const dataToSend = {
       cartItems: cartItems,
@@ -67,6 +69,7 @@ function App() {
       address: address,
       notice: notice,
       totalPrice: totalPrice,
+      totalItems: totalItems,  // Add total count
       storeName: storeName,
       // Add any other relevant data you want to send
     };
