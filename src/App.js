@@ -158,7 +158,7 @@ function App() {
           العنوان الكامل:
           <input
             type="text"
-            placeholder="اكتب العنوان الكامل مع اقرب نقطة دالة"
+            placeholder="اكتب الملاحظات: هل القائمة نقد او بالاجل؟ تاريخ ارسال البضاعة؟"
             value={address}
             onChange={(e) => setAddress(e.target.value)}
             style={{
