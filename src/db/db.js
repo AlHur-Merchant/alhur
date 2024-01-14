@@ -5,7 +5,7 @@ import Img5 from "../images/img-5.JPG";
 import Img6 from "../images/img-6.JPG";
 import Img8 from "../images/img-8.JPG";
 import Img9 from "../images/img-9.JPG";
-import Img7 from "../images/img-7.JPG";
+import Img7 from "../images/img07.JPG";
 
 export function getData() {
   return [
