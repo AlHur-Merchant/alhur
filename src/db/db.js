@@ -5,7 +5,6 @@ import Img5 from "../images/img-5.JPG";
 import Img6 from "../images/img-6.JPG";
 import Img8 from "../images/img-8.JPG";
 import Img9 from "../images/img-9.JPG";
-import Img7 from "../images/img07.JPG";
 import Img10 from "../images/img10.JPG";
 export function getData() {
   return [
@@ -16,8 +15,7 @@ export function getData() {
     { title: "عصير فارتونا فواكه دايت",description: "15x250 مل", price: 2.5, Image: Img6,id:5 },
     { title: " شاي لبتون الاخضر",description: "24x330 مل", price: 0.99, Image: Img8,id:6 },
     { title: "ريد بل انكليزي",description: "12x473 مل", price: 2.99, Image: Img9,id:7 },
-        { title: "ريد بول ٢",description: "12x473 مل", price: 2.99, Image: Img7,id:8 },
-        { title: "ريد بول ",description: "12x473 مل", price: 2.99, Image: Img10,id:9 },
+        { title: "ريد بول ",description: "12x473 مل", price: 2.99, Image: Img10,id:8 },
 
   ];
 }
